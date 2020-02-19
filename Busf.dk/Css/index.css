@@ -16,8 +16,9 @@ header{
   height: 80px;
 }
 .logo{
+  text-align: center;
   list-style: none;
-  font-size: 24px;
+  font-size: 38px;
 }
 header nav ul{
   display: block;
