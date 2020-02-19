@@ -28,12 +28,12 @@ header nav ul{
 header nav ul li{
   display: inline-block;
   float: left;
+  list-style: none;
   padding: 0px 16px;
 }
 header nav ul li a{
   font-size: 16px;
   color: #111;
-  list-style: circle;
   text-transform: uppercase;
 }
 main {
