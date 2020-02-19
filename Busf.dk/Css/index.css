@@ -15,7 +15,7 @@ header{
   width: 100%;
   height: 80px;
 }
-header a {
+.logo {
   text-align: center;
   list-style: none;
   font-size: 38px;
