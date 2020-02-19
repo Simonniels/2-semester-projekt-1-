@@ -23,7 +23,6 @@ header{
 header nav ul{
   display: block;
   margin: 0 auto;
-
   width: fit-content;
 }
 header nav ul li{
@@ -34,7 +33,7 @@ header nav ul li{
 header nav ul li a{
   font-size: 16px;
   color: #111;
-  list-style: none;
+  list-style:none;
   text-transform: uppercase;
 }
 main {
