@@ -27,7 +27,7 @@ header nav ul{
 }
 header nav ul li{
 display: flex;
-flex-wrap: wrap;
+flex: wrap;
   list-style: none;
   padding: 0px 16px;
 }
