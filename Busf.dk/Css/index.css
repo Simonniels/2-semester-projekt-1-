@@ -27,6 +27,7 @@ header nav ul{
   text-align: center;
   display: flex;
   flex-wrap: wrap;
+  flex: center; 
 }
 header nav ul li{
   list-style: none;
@@ -36,11 +37,7 @@ header nav ul li a{
   font-size: 16px;
   color: #111;
   text-transform: uppercase;
-<<<<<<< HEAD
   text-align: center;
-=======
-  display: inline-block;
->>>>>>> 5185f16ebe2e0616206e78bd4c0967770be0be95
 }
 main {
   width: 100%;
