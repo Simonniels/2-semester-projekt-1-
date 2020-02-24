@@ -36,6 +36,7 @@ header nav ul li a{
   font-size: 16px;
   color: #111;
   text-transform: uppercase;
+  display: inline-block;
 }
 main {
   width: 100%;
@@ -47,5 +48,5 @@ footer{
   padding: 40px 40px;
   background-color: #8e7d69;
   overflow: hidden;
-  
+
 }
