@@ -20,10 +20,13 @@ header{
   list-style: none;
   font-size: 38px;
   color: #000;
+  text-align: center;
 }
 header nav ul{
   margin: 0 auto;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 header nav ul li{
   list-style: none;
