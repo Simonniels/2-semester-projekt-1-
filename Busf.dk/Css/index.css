@@ -23,6 +23,7 @@ header{
 }
 header nav ul{
   margin: 0 auto;
+  text-align: center;
 }
 header nav ul li{
   list-style: none;
