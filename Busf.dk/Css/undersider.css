@@ -19,7 +19,7 @@ header{
 .logo {
   list-style: none;
   font-size: 38px;
-  color: #fff;
+  color: #000;
 
 }
 header nav ul{
@@ -34,7 +34,7 @@ header nav ul li{
 }
 header nav ul li a{
   font-size: 16px;
-  color: #FFFFFF;
+  color: #111;
   text-transform: uppercase;
 }
 
@@ -51,8 +51,4 @@ footer{
   overflow: hidden;
   position: fixed;
   text-align: center;
-  left: 0;
-  bottom: 0;
-  color: #fff;
-
 }
