@@ -47,12 +47,14 @@ main {
 footer{
   width: 100%;
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
   height:10%;
 =======
 >>>>>>> 71ddd79166280ddc2aaa4b809393034dcfb0433c
+>>>>>>> b408d341ab67c1753022de75d3b27ebf7c3cd007
   padding: 20px 20px;
   background-color: #8e7d69;
   overflow: hidden;
   position: fixed;
-
 }
