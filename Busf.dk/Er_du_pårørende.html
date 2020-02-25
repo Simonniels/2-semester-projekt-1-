@@ -8,11 +8,7 @@
   </head>
   <body>
     <header>
-<<<<<<< HEAD
       <a href="Index.html" class="logo">den fynske sorggruppe</a>
-=======
-      <a href="Html/Index.html" class="logo">den fynske sorggruppe</a>
->>>>>>> 3681827f1b4d0c9ca80e4719b8a40238de978653
       <nav>
         <ul>
           <li><a href="Index.html">Forside</a></li>
@@ -25,36 +21,6 @@
       </nav>
     </header>
   <main>
-    <script>
-    var i = 0; 			// Start Point
-var images = [];	// Images Array
-var time = 3000;	// Time Between Switch
-
-// Image List
-images[0] = 'GR1.jpg';
-images[1] = 'GR2.jpg';
-images[2] = 'GR3.jpg';
-
-// Change Image
-function changeImg(){
-	document.slide.src = images[i];
-
-	// Check If Index Is Under Max
-	if(i < images.length - 1){
-	  // Add 1 to Index
-	  i++;
-	} else {
-		// Reset Back To O
-		i = 0;
-	}
-
-	// Run function every x seconds
-	setTimeout("changeImg()", time);
-}
-
-// Run function when page loads
-window.onload=changeImg;
-    </script>
   </main>
   </body>
   <footer>
