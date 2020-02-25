@@ -34,7 +34,7 @@ header nav ul li{
 }
 header nav ul li a{
   font-size: 16px;
-  color: #111;
+  color: #FFFFFF;
   text-transform: uppercase;
 }
 
@@ -52,5 +52,5 @@ footer{
   position: fixed;
   text-align: center;
   left: 0;
-  bottom: 0;  
+  bottom: 0;
 }
