@@ -41,7 +41,7 @@ header nav ul li a{
 }
 
 /* menu Computer  */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1000px) {
 	.topnav a:not(:first-child){display: none;}
   .topnav a.topnav-right{display: none;}
 	.topnav a.icon {
