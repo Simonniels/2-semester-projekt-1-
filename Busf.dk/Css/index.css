@@ -3,6 +3,7 @@
   padding: 0%;
   text-decoration: none;
 }
+/* Menu, Mobil version  */
 h1{
 color: #fff;
 text-align: center;
@@ -17,7 +18,6 @@ header{
   height: 80px;
 }
 
-/* Menu, Mobil version  */
 
 .logo {
   list-style: none;
@@ -51,7 +51,7 @@ main {
   background-color: #f2f2f2f2;
 }
 
-/* Hoved indhold, computer */ 
+/* Hoved indhold, computer */
 /*  Footer  */
 footer{
   width: 100%;
