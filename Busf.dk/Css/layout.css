@@ -3,7 +3,6 @@
   padding: 0%;
   text-decoration: none;
 }
-/* Menu, Mobil version  */
 h1{
 color: #fff;
 text-align: center;
@@ -17,12 +16,13 @@ header{
   width: 100%;
   height: 80px;
 }
-
-
 .logo {
   list-style: none;
   font-size: 38px;
   color: #fff;
+
+
+
 }
 header nav ul{
   margin: 0 auto;
@@ -40,28 +40,12 @@ header nav ul li a{
   text-transform: uppercase;
 }
 
-/* menu Computer  */
-@media screen and (max-width: 750px) {
-	.topnav a:not(:first-child){display: none;}
-  .topnav a.topnav-right{display: none;}
-	.topnav a.icon {
-		width: 22px;
-		height: 22px;
-		float: right;
-		display: block;
-	}
-}
-
-
-/* Hoved indhold, mobil, */
 main {
   width: 100%;
   height: 100%;
   background-color: #f2f2f2f2;
 }
 
-/* Hoved indhold, computer */
-/*  Footer  */
 footer{
   width: 100%;
   padding: 15px 15px;
