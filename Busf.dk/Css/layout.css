@@ -17,15 +17,15 @@ header{
   width: 100%;
   height: 80px;
 }
-.logo{
+.logobilled{
   width: 5%;
   height: 15px;
   background-image: url('Billeder/Sol');
   background-position: left;
-  
+
 }
 
-.logo {
+.logotekst {
   list-style: none;
   font-size: 38px;
   color: #fff;
