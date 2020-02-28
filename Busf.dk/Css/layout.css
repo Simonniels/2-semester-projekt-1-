@@ -1,0 +1,84 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+}
+/* Menu, Mobil version  */
+h1{
+color: #fff;
+text-align: center;
+}
+h2{
+color:#000;
+text-align: center;
+}
+header{
+  background-color:#58b46a;
+  width: 100%;
+  height: 80px;
+}
+.logo{
+  width: 5%;
+  height: 15px;
+  background-image: url('Billeder/Sol');
+  background-position: left;
+  
+}
+
+.logo {
+  list-style: none;
+  font-size: 38px;
+  color: #fff;
+  margin-left: 275px;
+}
+
+header nav ul{
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 41px;
+}
+header nav ul li{
+  list-style: none;
+  padding: 0px 16px;
+}
+header nav ul li a{
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+/* menu Computer  */
+@media screen and (max-width: 750px) {
+	.topnav a:not(:first-child){display: none;}
+  .topnav a.topnav-right{display: none;}
+	.topnav a.icon {
+		width: 22px;
+		height: 22px;
+		float: right;
+		display: block;
+	}
+}
+
+
+/* Hoved indhold, mobil, */
+main {
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2f2;
+}
+
+/* Hoved indhold, computer */
+/*  Footer  */
+footer{
+  width: 100%;
+  padding: 15px 15px;
+  background-color: #bfddba;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  color: #535353;
+
+}
