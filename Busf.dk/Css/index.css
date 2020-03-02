@@ -13,38 +13,31 @@ color:#000;
 text-align: center;
 }
 header{
-  background-color:#58b46a;
+  background-color: #52b768;
   width: 100%;
   height: 80px;
 }
-.logobilled img{
-  width: 3%;
-  height: 5px;
 
 
-}
-
-.logotekst {
+.logo {
   list-style: none;
   font-size: 38px;
   color: #fff;
-  margin-left: 275px;
 }
-
 header nav ul{
   margin: 0 auto;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 41px;
 }
 header nav ul li{
   list-style: none;
   padding: 0px 16px;
 }
 header nav ul li a{
-  font-size: 20px;
+  font-size: 16px;
   color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 /* menu Computer  */
@@ -72,12 +65,12 @@ main {
 footer{
   width: 100%;
   padding: 15px 15px;
-  background-color: #bfddba;
+  background-color: #8e7d69;
   overflow: hidden;
   position: fixed;
   text-align: center;
   left: 0;
   bottom: 0;
-  color: #535353;
+  color: #fff;
 
 }

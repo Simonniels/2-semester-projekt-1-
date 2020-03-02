@@ -17,26 +17,20 @@ header{
   width: 100%;
   height: 80px;
 }
-.logobilled img{
-  width: 3%;
-  height: 5px;
 
 
-}
-
-.logotekst {
+.logo {
   list-style: none;
   font-size: 38px;
   color: #fff;
   margin-left: 275px;
 }
-
 header nav ul{
   margin: 0 auto;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 41px;
+  margin-left: 42px;
 }
 header nav ul li{
   list-style: none;
