@@ -15,13 +15,14 @@ text-align: center;
 header{
   background-color:#58b46a;
   width: 100%;
-  height: 80px;
+  height: 120px;
 }
 
 .logobilled img{
-  width: 10%;
+  width: 5%;
   height: 50px;
-  border-radius: 50%; 
+  border-radius: 50%;
+  border: 1px solid #ddd;
 }
 
 .logo {
@@ -35,7 +36,7 @@ header nav ul{
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 42px;
+  margin-left: 75px;
 }
 header nav ul li{
   list-style: none;
