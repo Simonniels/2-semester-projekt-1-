@@ -3,9 +3,7 @@
   padding: 0%;
   text-decoration: none;
 }
-.topnav{
-  display: none;
-}
+
 h1{
 color: #fff;
 text-align: center;
@@ -51,6 +49,8 @@ header nav ul li a{
 @media screen and (max-width: 750px) {
   .computer{
     display: none;
+  }
+
   }
   .topnav {
     overflow: hidden;
