@@ -3,7 +3,10 @@
   padding: 0%;
   text-decoration: none;
 }
-/* Menu, Mobil version  */
+/* Menu, Computer version  */
+.topnav #myLinks {
+  display: none;
+}
 h1{
 color: #fff;
 text-align: center;
@@ -47,8 +50,9 @@ header nav ul li a{
   color: #FFFFFF;
 }
 
-/* menu Computer  */
+
 @media screen and (max-width: 750px) {
+  /* menu Mobil */
   /* Style the navigation menu */
   .topnav {
     overflow: hidden;
