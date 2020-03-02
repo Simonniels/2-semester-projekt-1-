@@ -3,7 +3,9 @@
   padding: 0%;
   text-decoration: none;
 }
-
+#mobil{
+  display: none;
+}
 h1{
 color: #fff;
 text-align: center;
