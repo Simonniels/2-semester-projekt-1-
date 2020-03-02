@@ -22,7 +22,7 @@ header{
   width: 10%;
   height: 50px;
   border-radius: 50%;
-  padding-left: 5px;
+  margin-left: 5px; 
 }
 
 .logo {
