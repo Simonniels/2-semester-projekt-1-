@@ -21,8 +21,7 @@ header{
 .logobilled img{
   width: 10%;
   height: 50px;
-
-
+padding-left: 5px; 
 }
 
 .logo {
