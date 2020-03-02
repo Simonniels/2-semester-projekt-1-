@@ -18,6 +18,12 @@ header{
   height: 80px;
 }
 
+.logobilled img{
+  width: 1px;
+  height: 1px;
+
+
+}
 
 .logo {
   list-style: none;
