@@ -3,7 +3,7 @@
   padding: 0%;
   text-decoration: none;
 }
-#topnav{
+.topnav{
   display: none;
 }
 h1{
@@ -49,7 +49,7 @@ header nav ul li a{
   color: #FFFFFF;
 }
 @media screen and (max-width: 750px) {
-  #computer{
+  .computer{
     display: none;
   }
   .topnav {
