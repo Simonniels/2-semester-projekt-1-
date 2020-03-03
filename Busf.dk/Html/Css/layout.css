@@ -57,7 +57,16 @@ header nav ul li{
 header nav ul li a{
   font-size: 20px;
   color: #FFFFFF;
+
 }
+
+.søge-box {
+position: absolute;
+
+
+}
+
+
 @media screen and (max-width: 750px) {
   .computer{
     display: none;
