@@ -3,6 +3,9 @@
   padding: 0%;
   text-decoration: none;
 }
+.topnav {
+display: none;
+}
 
 h1{
 color: #fff;
