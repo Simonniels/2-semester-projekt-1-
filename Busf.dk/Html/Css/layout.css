@@ -54,6 +54,9 @@ header nav ul li a{
     display: none;
   }
   .topnav {
+    display: table;
+  }
+  .topnav {
     overflow: hidden;
     background-color: #333;
     position: relative;
