@@ -62,7 +62,7 @@ header nav ul li a{
   }
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #000;
     position: relative;
   }
   /* Hide the links inside the navigation menu (except for logo/home) */
