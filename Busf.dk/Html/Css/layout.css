@@ -61,11 +61,12 @@ header nav ul li a{
 }
 
 .søge-box {
-float: right;
+left: 90%;
 position: absolute;
 background: #2f3640;
 border-radius: 40px;
 padding: 10px;
+
 
 
 }
