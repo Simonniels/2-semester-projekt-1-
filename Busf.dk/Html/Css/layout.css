@@ -64,12 +64,9 @@ header nav ul li a{
 float: right;
 margin-right: 30px;
 position: absolute;
-
-
- background: #2f3640;
-
- border-radius: 40px;
- padding: 10px;
+background: #2f3640;
+border-radius: 40px;
+padding: 10px;
 
 
 }
