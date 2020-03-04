@@ -42,6 +42,7 @@ header{
 .Logobillede{
 weight: 15px;
 height: 15px;
+border-radius: 50%;
 }
 
 .logo {
