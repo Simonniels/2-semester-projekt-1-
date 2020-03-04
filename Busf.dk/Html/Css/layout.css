@@ -82,6 +82,9 @@ outline: none;
   .computer{
     display: none;
   }
+  header{
+    height: 49px; 
+  }
   .topnav {
     display: table;
     width: 100%;
