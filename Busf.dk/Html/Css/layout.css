@@ -3,21 +3,50 @@
   padding: 0%;
   text-decoration: none;
 }
-/* Menu, Mobil version  */
+.topnav {
+display: none;
+}
+
 h1{
 color: #fff;
 text-align: center;
+}
+main h2{
+  color: #000;
+  text-align: left;
 }
 h2{
 color:#000;
 text-align: center;
 }
+
+h3{
+  color: #000;
+  font-weight: bold;
+}
 header{
   background-color:#58b46a;
   width: 100%;
-  height: 80px;
+  height: 100px;
 }
 
+.logobilled img{
+  width: 5%;
+  height: 50px;
+  border-radius: 50%;
+
+}
+
+.Logobillede{
+weight: 35px;
+height: 35px;
+border-radius: 50%;
+position: fixed;
+bottom: 90%;
+
+
+
+}
 
 .logo {
   list-style: none;
@@ -30,7 +59,7 @@ header nav ul{
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 41px;
+  margin-left: 100px;
 }
 header nav ul li{
   list-style: none;
@@ -38,27 +67,90 @@ header nav ul li{
 }
 header nav ul li a{
   font-size: 20px;
-  color: #FFFFFF;
+  color: #fff;
+
 }
 
-/* menu Computer  */
-@media screen and (max-width: 750px) {
-	.topnav a:not(:first-child){display: none;}
-  .topnav a.topnav-right{display: none;}
-	.topnav a.icon {
-		width: 22px;
-		height: 22px;
-		float: right;
-		display: block;
-	}
+.søge-box {
+bottom: 90%;
+left: 85%;
+position: fixed;
+background: #fff;
+border-radius: 40px;
+padding: 4px;
+
 }
+
+.søg-tekst {
+border: none;
+outline: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .computer{
+    display: none;
+  }
+  header{
+    height: 49px;
+  }
+  .topnav {
+    display: table;
+    width: 100%;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  }
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background-image: url("../Billeder/menu-icon.png");
+    width: 17px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #000;
+    color: black;
+  }
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #58b46a;
+    color: white;
+  }
+}
+
+
+
+
+
+
 
 
 /* Hoved indhold, mobil, */
 main {
   width: 100%;
   height: 100%;
-  background-color: #f2f2f2f2;
+  background-color: #fff;
 }
 
 /* Hoved indhold, computer */
