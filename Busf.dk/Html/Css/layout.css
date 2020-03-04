@@ -27,7 +27,7 @@ h3{
 header{
   background-color:#58b46a;
   width: 100%;
-  height: 200px;
+  height: 100px;
 }
 
 .logobilled img{
@@ -61,7 +61,8 @@ header nav ul li a{
 }
 
 .søge-box {
-left: 90%;
+bottom: 90%;
+left: 80%;
 position: absolute;
 background: #2f3640;
 border-radius: 40px;
