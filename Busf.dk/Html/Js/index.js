@@ -11,9 +11,9 @@ function myFunction() {
   var time = 3000;	// Time Between Switch
 
   // Image List
-  images[0] = "./billeder/natur.jpg";
-  images[1] = "./billeder/sne.jpg";
-  images[2] = "./billeder/bjerg.jpg";
+  images[0] = "../billeder/natur.jpg";
+  images[1] = "../billeder/sne.jpg";
+  images[2] = "../billeder/bjerg.jpg";
 
   // Change Image
   function changeImg(){
