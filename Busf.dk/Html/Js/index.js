@@ -6,26 +6,31 @@ function myFunction() {
   } else {
     x.style.display = "block";
   }
-}
-var image1=new Image()
-image1.src="img_nature_wide1.jpg"
-var image2=new Image()
-image2.src="img_snow_wide2.jpg"
-var image3=new Image()
-image3.src="img_mountains_wide3.jpg"
+  var i = 0; 			// Start Point
+  var images = [];	// Images Array
+  var time = 3000;	// Time Between Switch
 
-//variable that will increment through the images
-var step=1
-function slideit(){
-//if browser does not support the image object, exit.
-if (!document.images)
-return
-document.images.slide.src=eval("image"+step+".src")
-if (step<3)
-step++
-else
-step=1
-//call function "slideit()" every 2.5 seconds
-setTimeout("slideit()",2500)
-}
-slideit()
+  // Image List
+  images[0] = "img_nature_wide1.jpg";
+  images[1] = "img_snow_wide2.jpg";
+  images[2] = "img_mountains_wide3.jpg";
+
+  // Change Image
+  function changeImg(){
+  	document.slide.src = images[i];
+
+  	// Check If Index Is Under Max
+  	if(i < images.length - 1){
+  	  // Add 1 to Index
+  	  i++;
+  	} else {
+  		// Reset Back To O
+  		i = 0;
+  	}
+
+  	// Run function every x seconds
+  	setTimeout("changeImg()", time);
+  }
+
+  // Run function when page loads
+  window.onload=changeImg;
