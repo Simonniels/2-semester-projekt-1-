@@ -37,13 +37,17 @@ header{
 
 
 
+
 }
 
 .Logobillede{
+display: inline-block;
 weight: 35px;
 height: 35px;
 border-radius: 50%;
-right: 85%;
+
+
+
 }
 
 .logo {
@@ -57,7 +61,7 @@ header nav ul{
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 header nav ul li{
   list-style: none;
