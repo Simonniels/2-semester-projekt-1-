@@ -115,6 +115,9 @@ outline: none;
     font-size: 17px;
     display: block;
   }
+  #logomobil{
+    background-image: url("../Billeder/Sol.png");
+  }
   /* Style the hamburger menu */
   .topnav a.icon {
     background-image: url("../Billeder/menu-icon.png");
