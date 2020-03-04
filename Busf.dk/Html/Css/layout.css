@@ -34,7 +34,6 @@ header{
   width: 5%;
   height: 50px;
   border-radius: 50%;
-
 }
 
 .Logobillede{
@@ -43,10 +42,7 @@ height: 35px;
 border-radius: 50%;
 
 
-
-
 }
-
 .logo {
   list-style: none;
   font-size: 38px;
@@ -69,7 +65,6 @@ header nav ul li a{
   color: #fff;
 
 }
-
 .søge-box {
 bottom: 90%;
 left: 85%;
@@ -79,12 +74,10 @@ border-radius: 40px;
 padding: 4px;
 
 }
-
 .søg-tekst {
 border: none;
 outline: none;
 }
-
 
 @media screen and (max-width: 1000px) {
   .computer{
