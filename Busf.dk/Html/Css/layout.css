@@ -34,21 +34,15 @@ header{
   width: 5%;
   height: 50px;
   border-radius: 50%;
-
-
 }
 
 .Logobillede{
 weight: 35px;
 height: 35px;
 border-radius: 50%;
-position: fixed;
-bottom: 90%;
-
 
 
 }
-
 .logo {
   list-style: none;
   font-size: 38px;
@@ -60,7 +54,7 @@ header nav ul{
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 60px;
+  margin-left: 100px;
 }
 header nav ul li{
   list-style: none;
@@ -71,7 +65,6 @@ header nav ul li a{
   color: #fff;
 
 }
-
 .søge-box {
 bottom: 90%;
 left: 85%;
@@ -81,18 +74,13 @@ border-radius: 40px;
 padding: 4px;
 
 }
-
 .søg-tekst {
 border: none;
 outline: none;
 }
 
-
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 1000px) {
   .computer{
-    display: none;
-  }
-  .søg.tekst{
     display: none;
   }
   header{
@@ -119,6 +107,8 @@ outline: none;
     font-size: 17px;
     display: block;
   }
+
+  }
   /* Style the hamburger menu */
   .topnav a.icon {
     background-image: url("../Billeder/menu-icon.png");
@@ -136,7 +126,7 @@ outline: none;
   }
   /* Style the active link (or home/logo) */
   .active {
-    background-color:#58b46a;
+    background-color: #58b46a;
     color: white;
   }
 }
@@ -151,7 +141,7 @@ outline: none;
 /* Hoved indhold, mobil, */
 main {
   width: 100%;
-  height: fit-content;
+  height: 100%;
   background-color: #fff;
 }
 
@@ -169,3 +159,73 @@ footer{
   color: #535353;
 
 }
+
+
+/*Lasse´s tilfældige forsøg på fremskridt*//
+#top form {
+		margin-bottom: 20px; }
+	#top fieldset {
+		margin-bottom: 20px; }
+	#top .input-text,
+	#top input[type="text"],
+	#top input[type="input"],
+	#top input[type="password"],
+	#top input[type="email"],
+	#top input[type="number"],
+    #top input[type="url"],
+    #top input[type="tel"],
+    #top input[type="search"],
+	#top textarea,
+	#top select {
+		 -webkit-appearance: none;
+		border: 1px solid #e1e1e1;
+		padding: 8px 6px;
+		outline: none;
+		font: 1em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: #777;
+		margin: 0;
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+		background: #fff;
+		border-radius: 0px;
+		}
+
+	#top input[type="text"]:focus,
+	#top input[type="password"]:focus,
+	#top input[type="email"]:focus,
+	#top input[type="number"]:focus,
+    #top input[type="url"]:focus,
+    #top input[type="tel"]:focus,
+    #top input[type="search"]:focus,
+	#top textarea:focus {
+		box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
+ 		color: #555;
+		}
+	#top textarea {
+		min-height: 60px; line-height:1.5em;}
+	#top label{
+		font-weight: bold;
+		font-size: 0.92em;  }
+	#top legend {
+		display: block;
+		font-weight: normal;
+		font-size: 1.2em;  }
+	#top select {
+		width: 100%; }
+	#top input[type="checkbox"] {
+		display: inline; }
+	#top label span,
+	#top legend span {
+		font-weight: normal;
+		font-size: 13px;
+		color: #444; }
+
+	#top textarea{width:100%;}
+
+
+#top #wrap_all .valid .text_input, #top #wrap_all .valid .text_area, #top #wrap_all .valid .select{border:1px solid #9AA600;} /*#70A41B*/
+#top #wrap_all .error .text_input, #top #wrap_all .error .text_area, #top #wrap_all .error .select{border:1px solid #DF653E;}
+#top #wrap_all .ajax_alert .text_input, #top #wrap_all .ajax_alert .text_area, #top #wrap_all .ajax_alert .select{border:1px solid #ffb628;}
+#top #wrap_all .valid  .input_checkbox_label{color:#9AA600;}
+#top #wrap_all .error  .input_checkbox_label{color:#DF653E;}
