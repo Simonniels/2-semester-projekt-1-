@@ -45,9 +45,8 @@ header{
 weight: 35px;
 height: 35px;
 border-radius: 50%;
-padding: 5px;
-
-
+position: fixed;
+bottom: 90%;
 
 
 
@@ -114,7 +113,7 @@ outline: none;
   }
   /* Style navigation menu links */
   .topnav a {
-    color: Black;
+    color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
