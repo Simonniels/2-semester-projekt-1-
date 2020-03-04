@@ -105,6 +105,7 @@ border: none;
   /* Style the hamburger menu */
   .topnav a.icon {
     background-image: url("../Billeder/menu-icon.png");
+    background-image: image(fit content);
     display: block;
     position: absolute;
     right: 0;
