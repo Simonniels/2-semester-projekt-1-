@@ -62,11 +62,11 @@ header nav ul li a{
 
 .søge-box {
 bottom: 90%;
-left: 80%;
+left: 85%;
 position: absolute;
 background: #fff;
 border-radius: 40px;
-padding: 5px;
+padding: 4px;
 
 
 
@@ -107,7 +107,11 @@ outline: none;
   .topnav a.icon {
     background-image: url("../Billeder/menu-icon.png");
     width: 28px;
+<<<<<<< HEAD
     height: 18px; 
+=======
+    height: 32px;
+>>>>>>> 6521e74701a5470d1a35100447217998ee64b188
     display: block;
     position: absolute;
     right: 0;
