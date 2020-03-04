@@ -35,13 +35,15 @@ header{
   height: 50px;
   border-radius: 50%;
 
+
 }
 
 .Logobillede{
 weight: 35px;
 height: 35px;
 border-radius: 50%;
-
+position: fixed;
+bottom: 90%;
 
 
 
@@ -86,7 +88,7 @@ outline: none;
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1260px) {
   .computer{
     display: none;
   }
@@ -114,8 +116,6 @@ outline: none;
     font-size: 17px;
     display: block;
   }
-
-  }
   /* Style the hamburger menu */
   .topnav a.icon {
     background-image: url("../Billeder/menu-icon.png");
@@ -133,7 +133,7 @@ outline: none;
   }
   /* Style the active link (or home/logo) */
   .active {
-    background-color: #58b46a;
+    background-color:#58b46a;
     color: white;
   }
 }
