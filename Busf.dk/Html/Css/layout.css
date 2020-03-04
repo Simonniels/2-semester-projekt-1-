@@ -35,6 +35,13 @@ header{
   height: 50px;
   border-radius: 50%;
 
+
+
+}
+
+.Logobillede{
+weight: 15px;
+height: 15px;
 }
 
 .logo {
@@ -83,7 +90,7 @@ outline: none;
     display: none;
   }
   header{
-    height: 49px; 
+    height: 49px;
   }
   .topnav {
     display: table;
