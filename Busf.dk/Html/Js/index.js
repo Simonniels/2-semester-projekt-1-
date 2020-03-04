@@ -11,9 +11,9 @@ function myFunction() {
   var time = 3000;	// Time Between Switch
 
   // Image List
-  images[0] = "natur.jpg";
-  images[1] = "bjerg.jpg";
-  images[2] = "sne.jpg";
+  images[0] = "https://www.w3schools.com/w3css/img_nature_wide.jpg";
+  images[1] = "https://www.w3schools.com/w3css/img_snow_wide.jpg";
+  images[2] = "https://www.w3schools.com/w3css/img_snow_wide.jpg";
 
   // Change Image
   function changeImg(){
