@@ -56,7 +56,7 @@ header nav ul li{
 }
 header nav ul li a{
   font-size: 20px;
-  color: #FFFFFF;
+  color: #fff;
 
 }
 
@@ -104,7 +104,7 @@ padding: 10px;
   }
   /* Style the hamburger menu */
   .topnav a.icon {
-    background: black;
+    background-image: url(menu-icon.png);
     display: block;
     position: absolute;
     right: 0;
