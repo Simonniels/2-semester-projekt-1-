@@ -61,6 +61,7 @@ header nav ul li a{
 }
 
 .søge-box {
+bottom: 90%;
 left: 80%;
 position: absolute;
 background: #2f3640;
