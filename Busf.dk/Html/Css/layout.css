@@ -35,6 +35,15 @@ header{
   height: 50px;
   border-radius: 50%;
 
+
+
+}
+
+.Logobillede{
+weight: 35px;
+height: 35px;
+border-radius: 50%;
+right: 85%;
 }
 
 .logo {
@@ -48,7 +57,7 @@ header nav ul{
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 header nav ul li{
   list-style: none;
@@ -68,8 +77,6 @@ background: #fff;
 border-radius: 40px;
 padding: 4px;
 
-
-
 }
 
 .søg-tekst {
@@ -81,6 +88,9 @@ outline: none;
 @media screen and (max-width: 1000px) {
   .computer{
     display: none;
+  }
+  header{
+    height: 49px;
   }
   .topnav {
     display: table;
@@ -107,7 +117,7 @@ outline: none;
   .topnav a.icon {
     background-image: url("../Billeder/menu-icon.png");
     width: 17px;
-    height: 32px;
+    height: 22px;
     display: block;
     position: absolute;
     right: 0;
