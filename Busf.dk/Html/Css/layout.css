@@ -107,7 +107,11 @@ outline: none;
   .topnav a.icon {
     background-image: url("../Billeder/menu-icon.png");
     width: 28px;
+<<<<<<< HEAD
+    height: 18px; 
+=======
     height: 32px;
+>>>>>>> 6521e74701a5470d1a35100447217998ee64b188
     display: block;
     position: absolute;
     right: 0;
@@ -121,7 +125,7 @@ outline: none;
   }
   /* Style the active link (or home/logo) */
   .active {
-    background-color: #4CAF50;
+    background-color: #58b46a;
     color: white;
   }
 }
