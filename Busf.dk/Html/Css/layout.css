@@ -35,10 +35,6 @@ header{
   height: 50px;
   border-radius: 50%;
 
-
-
-
-
 }
 
 .Logobillede{
@@ -118,6 +114,8 @@ outline: none;
     text-decoration: none;
     font-size: 17px;
     display: block;
+  }
+  
   }
   /* Style the hamburger menu */
   .topnav a.icon {
