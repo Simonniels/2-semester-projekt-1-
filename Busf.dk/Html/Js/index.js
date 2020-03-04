@@ -11,10 +11,9 @@ function myFunction() {
   var time = 3000;	// Time Between Switch
 
   // Image List
-  images[0] = "http://lorempixel.com/400/200/animals";
-  images[1] = "http://lorempixel.com/400/200/sports";
-  images[2] = "http://lorempixel.com/400/200/food";
-  images[3] = "http://lorempixel.com/400/200/people";
+  images[0] = "https://www.w3schools.com/w3css/img_nature_wide.jpg";
+  images[1] = "https://www.w3schools.com/w3css/img_snow_wide.jpg";
+  images[2] = "https://www.w3schools.com/w3css/img_mountains_wide.jpg";
 
   // Change Image
   function changeImg(){
