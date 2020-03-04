@@ -148,7 +148,7 @@ outline: none;
 /* Hoved indhold, mobil, */
 main {
   width: 100%;
-  height: 100%;
+  height: fit-content; 
   background-color: #fff;
 }
 
