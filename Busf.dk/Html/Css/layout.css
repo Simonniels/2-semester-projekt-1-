@@ -72,8 +72,8 @@ position: fixed;
 background: #fff;
 border-radius: 40px;
 padding: 4px;
-
 }
+
 .søg-tekst {
 border: none;
 outline: none;
@@ -81,6 +81,9 @@ outline: none;
 
 @media screen and (max-width: 1000px) {
   .computer{
+    display: none;
+  }
+  .søge-box{
     display: none;
   }
   header{
@@ -119,9 +122,12 @@ outline: none;
     right: 0;
     top: 0;
   }
+  .active{
+    background-image:
+  }
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
-    background-color: #000;
+    background-color: #333;
     color: black;
   }
   /* Style the active link (or home/logo) */
