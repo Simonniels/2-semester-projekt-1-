@@ -104,7 +104,7 @@ border: none;
   }
   /* Style the hamburger menu */
   .topnav a.icon {
-    background-image: url("menu-icon.png");
+    background-image: url("../Billeder/menu-icon.png");
     display: block;
     position: absolute;
     right: 0;
