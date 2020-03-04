@@ -112,7 +112,7 @@ padding: 10px;
   }
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
-
+    background-color: #000;
 
     color: black;
   }
