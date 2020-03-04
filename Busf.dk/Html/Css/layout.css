@@ -119,6 +119,9 @@ outline: none;
     right: 0;
     top: 0;
   }
+  .active{
+    background-image: url("../Billeder/Sol.png");
+  }
   /* Add a grey background color on mouse-over */
   .topnav a:hover {
     background-color: #000;
