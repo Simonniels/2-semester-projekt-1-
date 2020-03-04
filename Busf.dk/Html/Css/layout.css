@@ -38,13 +38,15 @@ header{
 
 
 
+
 }
 
 .Logobillede{
-display: inline-block;
 weight: 35px;
 height: 35px;
 border-radius: 50%;
+position: fixed;
+bottom: 90%;
 
 
 
@@ -76,7 +78,7 @@ header nav ul li a{
 .søge-box {
 bottom: 90%;
 left: 85%;
-position: absolute;
+position: fixed;
 background: #fff;
 border-radius: 40px;
 padding: 4px;
