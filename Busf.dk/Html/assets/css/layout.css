@@ -152,7 +152,7 @@ h3 {
   padding-left: 14px;
 }
 /* start på  slideshow*/
-
+main{
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -246,6 +246,7 @@ h3 {
 @keyframes fade {
  from {opacity: .4}
  to {opacity: 1}
+}
 }
 /* slut på Slideshow */
 
