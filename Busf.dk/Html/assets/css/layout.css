@@ -13,7 +13,7 @@ header {
 }
 
 .menu-icon {
-  width: 44px;
+  width: 22px;
   line-height: 0px;
 }
 
@@ -34,7 +34,7 @@ header {
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 15.5px;
-  max-height: 50px;
+  max-height: 30px;
   margin-bottom: 0px;
   font-size: 16px;
 }
@@ -171,128 +171,40 @@ h3 {
 }
 
 
-
-
-
-
-
-
-/*Portfolio*/
-.portfolio {
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  margin-bottom: 45px;
-}
-
-.portfolio a {
-  text-decoration: none;
-  color: #fff;
-  width: 336px;
-  height: 336px;
-}
-
-.portfolio-item {
-  width: 336px;
-  height: 336px;
-  display: inline-block;
-  background-color: rgba(51, 51, 51, 0.7);
-  margin: 5px;
-  color: #fff;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.4), 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
-}
-
-.portfolio-item img {
-  position: relative;
-  vertical-align: middle;
-  width: 100%;
-  height: 189px;
-  padding: 0;
-  margin:0;
-  overflow: hidden;
-}
-
-.portfolio-item iframe {
-  position: relative;
-  vertical-align: middle;
-  width: 100%;
-  height: 189px;
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
-
-.link-portfolio {
-  height: 100%;
-  height: 100%;
-}
-
-/*portfolio animation*/
-.sprite {
-  vertical-align: middle;
-  margin: auto;
-  width: 189px;
-  height: 189px;
-  background: url(../photo/portfolio/Kamehameha.jpg) 0 0 no-repeat;
-  animation: play 2.5s steps(37) infinite;
-}
-
-@keyframes play {
-  0%{background-position: -0px;}
-  100% { background-position: -6999px; }
-}
-
-
-/*About*/
-
-
 /*Contact*/
-.contact-left {
-  flex: 50%;
-  padding-right: 14px;
-  display: block;
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-.contact-right {
-  flex: 50%;
-  padding-left: 14px;
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.contact-right iframe {
-  min-height: 500px;
-  width: 100%;
-  border: 0;
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
 }
 
-.contact-info {
-  display: block;
-  margin-bottom: 10px;
-  height: 46px;
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
 }
-
-.contact-info img {
-  height: 46px;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-
-.contact-info p {
-  display: inline-block;
-  vertical-align: top;
-  padding: 0;
-  margin: 0;
-}
-
-.contact-info a {
-  display: inline-block;
-  margin: 0px 0px 0px 0px;
-  text-decoration: none;
-  color: #333;
-  padding-top: 11.5px;
-  padding-bottom: 11.5px;
-}
-
 /*Responsive Contact*/
 @media screen and (max-width: 825px) {
   .two-columns {
@@ -314,15 +226,16 @@ h3 {
 }
 
 
+
 /*****FOOTER*****/
 footer{
 
   position: fixed;
   bottom: 0;
-  background-color: #8E7D69;
+  background-color: #bfddba;
   min-width: 100%;
   height: 43px;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   font-size: 14px;
 
