@@ -326,7 +326,6 @@ input[type=submit]:hover {
 /*****FOOTER*****/
 footer{
 
-overflow: hidden;
   bottom: 0;
   background-color: #76a7da;
   min-width: 100%;
