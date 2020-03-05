@@ -114,8 +114,8 @@ h3 {
 .phone-btn {
   position: fixed;
   bottom: 44px;
-  right: 10px;
-  height: 50px;
+  right: 15px;
+  height: 110px;
   width: 50px;
 }
 
@@ -325,7 +325,7 @@ input[type=submit]:hover {
 
 /*****FOOTER*****/
 footer{
-
+  overflow: hidden;
   position: fixed;
   bottom: 0;
   background-color: #76a7da;
@@ -335,9 +335,9 @@ footer{
   text-align: center;
   font-size: 14px;
   padding-bottom: 15px;
+  position: fixed;
 
   .logoface {
-padding-left: 30px;
-}
+padding-left: 30px;}
 
 }
