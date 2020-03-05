@@ -154,7 +154,7 @@ h3 {
 
 /* slideshow*/
 /* start på  slideshow*/
-main{
+#slideshow-container{
 * {box-sizing:border-box}
 
 /* Slideshow container */
