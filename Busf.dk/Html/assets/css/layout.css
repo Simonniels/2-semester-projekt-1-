@@ -330,7 +330,7 @@ footer{
   bottom: 0;
   background-color: #76a7da;
   min-width: 100%;
-  height: 43px;
+  height: fit-content;
   color: #ffffff;
   text-align: center;
   font-size: 14px;
