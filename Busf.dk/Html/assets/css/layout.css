@@ -335,4 +335,8 @@ footer{
   text-align: center;
   font-size: 14px;
 
+  .logoface {
+padding-left: 30px;
+}
+
 }
