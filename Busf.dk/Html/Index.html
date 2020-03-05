@@ -6,7 +6,13 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/photo/logo.png">
     <link rel="stylesheet" href="assets/css/layout.css">
     <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
-<script type="text/javascript" src="Js/index.js"></script>
+    <script>
+      function myFunction() {
+	       var x = document.getElementById("myTopnav");
+	       if (x.className === "topnav") {x.className += " responsive";}
+	       else {x.className = "topnav";}
+       }
+    </script>
   </head>
   <body>
     <header>
@@ -54,7 +60,6 @@
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
       <div class="content">
-
         <div class="two-columns">
           <div class="index-left">
             <div class="index-text">
@@ -90,7 +95,7 @@
       <p>Copyright &copy; 2020 | Gruppe 21 | All rights reserved</p>
 
 
->>>>>>> 843503718c2666496d757286559832c0945d88f1
+>>>>>>> 68dbf66055b4acd12e7ceaa0ac89247330843ded
     </footer>
   </body>
 </html>
