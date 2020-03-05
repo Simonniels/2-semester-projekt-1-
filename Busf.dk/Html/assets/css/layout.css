@@ -114,8 +114,8 @@ h3 {
 .phone-btn {
   position: fixed;
   bottom: 44px;
-  right: 10px;
-  height: 50px;
+  right: 15px;
+  height: 110px;
   width: 50px;
 }
 
@@ -151,7 +151,11 @@ h3 {
   flex: 50%;
   padding-left: 14px;
 }
+<<<<<<< HEAD
 /* slideshow*/
+=======
+/* start på  slideshow*/
+>>>>>>> c42f74a9a7a0ee216a4ea8ecb673bd2f386d8e18
 main{
 * {box-sizing:border-box}
 
@@ -248,6 +252,11 @@ main{
  to {opacity: 1}
 }
 }
+<<<<<<< HEAD
+=======
+/* slut på Slideshow */
+
+>>>>>>> c42f74a9a7a0ee216a4ea8ecb673bd2f386d8e18
 /*Responsive index*/
 @media screen and (max-width: 825px) {
   .two-columns {
@@ -322,10 +331,9 @@ input[type=submit]:hover {
 }
 
 
-
 /*****FOOTER*****/
 footer{
-
+  overflow: hidden;
   position: fixed;
   bottom: 0;
   background-color: #76a7da;
