@@ -31,12 +31,26 @@
           </div>
           <div class="index-right">
             <div class="index-text">
-              <h1>SÅDAN BEGYNDER DU I EN SORGGRUPPE</h1>
-              <p>Har du selv mistet, eller kender du nogen mellem 10 og 16 år, som har mistet og har brug for jævnaldrende at tale med – så ring eller skriv og tal med én af gruppelederne.</p>
-              <p>Du vil herefter blive indbudt til en for samtale med to af lederne.</p>
-              <p>Efterfølgende bliver du skrevet op til deltagelse i den førstkommende gruppe, hvis der er plads og såfremt gruppelederen mener, at du kan have glæde af tilbuddet.</p>
-              <p>Vi mødes på Bülowsvej 11-13, Odense M, hvor  Thomas Kingos Kirke har været så venlig at stille to lokaler til rådighed for gruppen.</p>
-            </div>
+              <div class="container">
+          <form action="action_page.php">
+            <label for="country">Country</label>
+           <select id="country" name="country">
+           <option value="Forenings- og menighedsrådsmedlemsskab">Forening</option>
+           <option value="Personligt Medlemsskab">Personligt</option>
+           </select>
+
+            <label for="fname">Fornavn</label>
+            <input type="text" id="fname" name="fornavn" placeholder="Fornavn..">
+
+            <label for="lname">Efternavn</label>
+            <input type="text" id="lname" name="efternavn" placeholder="Efternavn..">
+
+
+
+            <label for="subject">Emne</label>
+            <textarea id="subject" name="subject" placeholder="Besked..." style="height:200px"></textarea>
+
+            <input type="submit" value="Send">
           </div>
         </div>
       </div>
