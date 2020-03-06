@@ -160,18 +160,17 @@ h3 {
 
 /* slideshow*/
 /* start på  slideshow*/
-* {box-sizing:border-box}
-
 
 /* Slideshow container */
 
 .slideshow-container {
-  max-width: 250px;
+  max-width: 50%;
+  padding-top: 10px; 
   position: relative;
   margin: auto;
 }
 .slideshow-container img {
-height:340px; 
+height:340px;
 }
 
 /* Hide the images by default */
