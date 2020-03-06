@@ -29,6 +29,7 @@ header {
   background-color: #0011a5;
 }
 
+
 .topnav a {
  	float: left;
 	display: block;
@@ -45,6 +46,7 @@ header {
 .topnav a:hover {
 	background-color: #bfddba;
   color: #3bae68
+
 }
 
 .topnav .icon {
@@ -160,6 +162,7 @@ h3 {
 /* start på  slideshow*/
 * {box-sizing:border-box}
 
+
 /* Slideshow container */
 
 .slideshow-container {
@@ -259,6 +262,12 @@ height:340px;
 <<<<<<< HEAD
 =======
 }
+<<<<<<< HEAD
+
+
+/* slut på Slideshow */
+
+
 
 >>>>>>> 606bcd52519a4aa0663792c5e03ec6c181da49e6
 
