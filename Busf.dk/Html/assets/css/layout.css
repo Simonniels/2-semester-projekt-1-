@@ -25,13 +25,9 @@ header {
   overflow: hidden;
   background-color: #58b46a;
 }
-<<<<<<< HEAD
-=======
 .active {
   background-color: #0011a5;
 }
-
->>>>>>> e02ec6aa1a8ccbf976cf814540bc3226f4689415
 
 .topnav a {
  	float: left;
@@ -48,12 +44,10 @@ header {
 
 .topnav a:hover {
 	background-color: #bfddba;
-<<<<<<< HEAD
-=======
   color: #3bae68
 
->>>>>>> e02ec6aa1a8ccbf976cf814540bc3226f4689415
 }
+
 
 .topnav .icon {
   display: none;
@@ -168,8 +162,6 @@ h3 {
 /* start på  slideshow*/
 * {box-sizing:border-box}
 
-<<<<<<< HEAD
-=======
 /* Slideshow container */
 
 .slideshow-container {
@@ -265,7 +257,6 @@ h3 {
 }
 }
 
->>>>>>> e02ec6aa1a8ccbf976cf814540bc3226f4689415
 
 /* slut på Slideshow */
 
@@ -342,14 +333,6 @@ input[type=submit]:hover {
   }
 }
 
-<<<<<<< HEAD
-.work iframe {
-  display: center;
-  width: 100%;
-  height: auto;  
-}
-=======
->>>>>>> e02ec6aa1a8ccbf976cf814540bc3226f4689415
 
 /*****FOOTER*****/
 footer{
