@@ -23,7 +23,7 @@ header {
 
 .topnav {
   overflow: hidden;
-  background-color: #58b460;
+  background-color: #fff;
 }
 .active {
   background-color: #0011a5;
@@ -160,6 +160,9 @@ h3 {
 
 /* slideshow*/
 /* start på  slideshow*/
+* {box-sizing:border-box}
+
+
 /* Slideshow container */
 
 .slideshow-container {
