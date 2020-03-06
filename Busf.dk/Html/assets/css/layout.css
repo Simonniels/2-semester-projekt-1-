@@ -23,7 +23,7 @@ header {
 
 .topnav {
   overflow: hidden;
-  background-color: #58b46a;
+  background-color: #fff;
 }
 .active {
   background-color: #0011a5;
@@ -160,12 +160,13 @@ h3 {
 
 /* slideshow*/
 /* start på  slideshow*/
+* {box-sizing:border-box}
+
 
 /* Slideshow container */
 
 .slideshow-container {
-  max-width: 50%;
-  padding-top: 10px;
+  max-width: 250px;
   position: relative;
   margin: auto;
 }
@@ -220,7 +221,7 @@ height:340px;
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 10px 12px;
+  padding: 8px 12px;
   position: absolute;
   top: 0;
 }
@@ -358,9 +359,6 @@ footer{
   text-align: center;
   font-size: 14px;
   padding-bottom: 15px;
-  justify-content: center;
-  display: flex;
-  list-style: none;
 
 
   .logoface {
