@@ -26,10 +26,6 @@ header {
   background-color: #58b46a;
 }
 
-.active {
-  background-color: #001100;
-}
-
 .topnav a {
  	float: left;
 	display: block;
@@ -45,7 +41,6 @@ header {
 
 .topnav a:hover {
 	background-color: #bfddba;
-  color: #bfddba
 }
 
 .topnav .icon {
@@ -159,7 +154,6 @@ h3 {
 
 /* slideshow*/
 /* start på  slideshow*/
-
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -256,7 +250,8 @@ h3 {
   to {opacity: 1}
 }
 }
->>>>>>> d676df14191d20a361697f402709b96382a17be9
+
+/* slut på Slideshow */
 
 
 /* slut på Slideshow */
@@ -346,14 +341,14 @@ width="560" height="315"
 /*****FOOTER*****/
 footer{
   overflow: hidden;
-  position: sticky;
+  position: fixed;
   bottom: 0;
   background-color: #76a7da;
   min-width: 100%;
   height: 80px;
   color: #ffffff;
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   padding-bottom: 15px;
   position: fixed;
 
