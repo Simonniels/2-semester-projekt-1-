@@ -152,7 +152,6 @@ h3 {
   padding-left: 14px;
 }
 
-/* slideshow*/
 /* start på  slideshow*/
 /* Slideshow container */
 .slideshow-container {
@@ -164,10 +163,7 @@ h3 {
   padding-top: 10px;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
+
 
 /* Next & previous buttons */
 .prev, .next {
