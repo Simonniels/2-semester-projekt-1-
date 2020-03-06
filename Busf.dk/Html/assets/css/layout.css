@@ -161,7 +161,7 @@ h3 {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 200px;
+  max-width: 100%;
   position: relative;
   margin: auto;
 }
