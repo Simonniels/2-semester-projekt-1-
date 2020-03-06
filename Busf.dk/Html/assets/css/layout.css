@@ -321,6 +321,14 @@ input[type=submit]:hover {
     display: block;
   }
 
+/*video*/
+
+  .video {
+
+width="560" height="315"
+
+}
+
   .contact-left {
     flex: none;
     height: 20vh;
