@@ -160,13 +160,12 @@ h3 {
 
 /* slideshow*/
 /* start på  slideshow*/
-* {box-sizing:border-box}
-
 
 /* Slideshow container */
 
 .slideshow-container {
-  max-width: 250px;
+  max-width: 50%;
+  padding-top: 10px;
   position: relative;
   margin: auto;
 }
@@ -221,7 +220,7 @@ height:340px;
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
+  padding: 10px 12px;
   position: absolute;
   top: 0;
 }
