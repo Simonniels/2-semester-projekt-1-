@@ -159,11 +159,7 @@ h3 {
 
 /* slideshow*/
 /* start på  slideshow*/
-* {box-sizing:border-box}
-<<<<<<< HEAD
-=======
 
->>>>>>> 3c083c2497f7ee9bc4e12507ec5316d4dc812dfe
 
 /* Slideshow container */
 
@@ -171,6 +167,9 @@ h3 {
   max-width: 250px;
   position: relative;
   margin: auto;
+}
+.slideshow-container img{
+padding-top: 20px; 
 }
 
 /* Hide the images by default */
