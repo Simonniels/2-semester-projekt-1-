@@ -25,9 +25,12 @@ header {
   overflow: hidden;
   background-color: #58b46a;
 }
+<<<<<<< HEAD
 .active {
   background-color: #0011a5;
 }
+=======
+>>>>>>> 528a666abeabccdfbe0731b56f5105636c66aaf3
 
 .topnav a {
  	float: left;
@@ -44,7 +47,10 @@ header {
 
 .topnav a:hover {
 	background-color: #bfddba;
+<<<<<<< HEAD
   color: #3bae68
+=======
+>>>>>>> 528a666abeabccdfbe0731b56f5105636c66aaf3
 }
 
 .topnav .icon {
@@ -158,12 +164,15 @@ h3 {
 
 /* slideshow*/
 /* start på  slideshow*/
+<<<<<<< HEAD
 * {box-sizing:border-box}
+=======
+>>>>>>> 528a666abeabccdfbe0731b56f5105636c66aaf3
 
 /* Slideshow container */
-
 .slideshow-container {
-  max-width: 250px;
+  padding-top: 20px;
+  max-width: 500px;
   position: relative;
   margin: auto;
 }
@@ -254,6 +263,11 @@ h3 {
   to {opacity: 1}
 }
 }
+<<<<<<< HEAD
+=======
+
+/* slut på Slideshow */
+>>>>>>> 528a666abeabccdfbe0731b56f5105636c66aaf3
 
 
 /* slut på Slideshow */
@@ -318,6 +332,14 @@ input[type=submit]:hover {
     display: block;
   }
 
+/*video*/
+
+  .video {
+
+width="560" height="315"
+
+}
+
   .contact-left {
     flex: none;
     height: 20vh;
@@ -335,14 +357,14 @@ input[type=submit]:hover {
 /*****FOOTER*****/
 footer{
   overflow: hidden;
-  position: sticky;
+  position: fixed;
   bottom: 0;
   background-color: #76a7da;
   min-width: 100%;
   height: 80px;
   color: #ffffff;
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   padding-bottom: 15px;
   position: fixed;
 
