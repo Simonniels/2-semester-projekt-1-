@@ -158,7 +158,8 @@ h3 {
   max-width: 500px;
   position: relative;
   margin: auto;
-  position: center; 
+  position: center;
+  position: fixed;
 }
 .slideshow-container img {
   padding-top: 10px;
