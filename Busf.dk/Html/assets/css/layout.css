@@ -25,9 +25,12 @@ header {
   overflow: hidden;
   background-color: #fff;
 }
+<<<<<<< HEAD
+=======
 .active {
   background-color: #0011a5;
 }
+>>>>>>> c17e8e77fc39aa7154a175ed4d58744f000c01be
 
 .topnav a {
  	float: left;
@@ -44,7 +47,10 @@ header {
 
 .topnav a:hover {
 	background-color: #bfddba;
+<<<<<<< HEAD
+=======
   color: #3bae68
+>>>>>>> c17e8e77fc39aa7154a175ed4d58744f000c01be
 }
 
 
@@ -161,6 +167,8 @@ h3 {
 /* start på  slideshow*/
 
 
+<<<<<<< HEAD
+=======
 /* Slideshow container */
 
 .slideshow-container {
@@ -258,6 +266,7 @@ padding-top: 20px;
   to {opacity: 1}
 }
 }
+>>>>>>> c17e8e77fc39aa7154a175ed4d58744f000c01be
 
 
 /* slut på Slideshow */
@@ -335,18 +344,21 @@ input[type=submit]:hover {
   }
 }
 
+.work iframe {
+  display: center; 
+}
 
 /*****FOOTER*****/
 footer{
   overflow: hidden;
-  position: sticky;
+  position: fixed;
   bottom: 0;
   background-color: #76a7da;
   min-width: 100%;
   height: 80px;
   color: #ffffff;
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   padding-bottom: 15px;
   position: fixed;
 
