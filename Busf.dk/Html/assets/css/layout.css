@@ -23,12 +23,11 @@ header {
 
 .topnav {
   overflow: hidden;
-  background-color: #fff;
+  background-color: #58b46a;
 }
 .active {
   background-color: #0011a5;
 }
-
 
 .topnav a {
  	float: left;
@@ -46,7 +45,6 @@ header {
 .topnav a:hover {
 	background-color: #bfddba;
   color: #3bae68
-
 }
 
 
@@ -163,16 +161,12 @@ h3 {
 /* start på  slideshow*/
 * {box-sizing:border-box}
 
-
 /* Slideshow container */
 
 .slideshow-container {
   max-width: 250px;
   position: relative;
   margin: auto;
-}
-.slideshow-container img {
-height:340px;
 }
 
 /* Hide the images by default */
@@ -260,17 +254,8 @@ height:340px;
   from {opacity: .4}
   to {opacity: 1}
 }
-<<<<<<< HEAD
-=======
 }
-<<<<<<< HEAD
 
-
-/* slut på Slideshow */
-
-
-
->>>>>>> 606bcd52519a4aa0663792c5e03ec6c181da49e6
 
 /* slut på Slideshow */
 
