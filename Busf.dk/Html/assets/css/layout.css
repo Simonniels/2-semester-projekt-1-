@@ -42,7 +42,6 @@ header {
   font-size: 16px;
 
 }
-
 .item:not(.active):hover,
 .item.active {
 }
