@@ -25,7 +25,9 @@ header {
   overflow: hidden;
   background-color: #58b46a;
 }
-
+.active {
+  background-color: #0011a5;
+}
 
 .topnav a {
  	float: left;
@@ -158,6 +160,7 @@ h3 {
 * {box-sizing:border-box}
 
 /* Slideshow container */
+
 .slideshow-container {
   max-width: 250px;
   position: relative;
@@ -170,7 +173,7 @@ h3 {
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -249,7 +252,7 @@ h3 {
   from {opacity: .4}
   to {opacity: 1}
 }
-
+}
 
 
 /* slut på Slideshow */
@@ -331,7 +334,7 @@ input[type=submit]:hover {
 /*****FOOTER*****/
 footer{
   overflow: hidden;
-  position: fixed;
+  position: sticky;
   bottom: 0;
   background-color: #76a7da;
   min-width: 100%;
