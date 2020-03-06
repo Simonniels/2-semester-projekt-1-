@@ -40,10 +40,14 @@ header {
   max-height: 30px;
   margin-bottom: 0px;
   font-size: 16px;
-  
+
 }
 
-.topnav a:hover:not(.active) {
+.item:not(.active):hover,
+.item.active {
+}
+
+.topnav a:hover {
 	background-color: #bfddba;
   color: #3bae68
 }
