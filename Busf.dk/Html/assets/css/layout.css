@@ -23,7 +23,7 @@ header {
 
 .topnav {
   overflow: hidden;
-  background-color: #58b46a;
+  background-color: #fff;
 }
 .active {
   background-color: #0011a5;
@@ -160,6 +160,10 @@ h3 {
 /* slideshow*/
 /* start på  slideshow*/
 * {box-sizing:border-box}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3c083c2497f7ee9bc4e12507ec5316d4dc812dfe
 
 /* Slideshow container */
 
@@ -345,7 +349,7 @@ footer{
   text-align: center;
   font-size: 14px;
   padding-bottom: 15px;
-  position: fixed;
+
 
   .logoface {
 padding-left: 30px;}
