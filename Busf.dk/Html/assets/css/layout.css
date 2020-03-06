@@ -25,7 +25,10 @@ header {
   overflow: hidden;
   background-color: #58b46a;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 9a06d99abaf20fafc76bb909145c99b7c06caa1f
 
 .topnav a {
  	float: left;
@@ -237,7 +240,7 @@ input[type=submit]:hover {
 /*****FOOTER*****/
 footer{
   overflow: hidden;
-  position: sticky;
+  position: fixed;
   bottom: 0;
   background-color: #76a7da;
   min-width: 100%;
