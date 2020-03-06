@@ -358,7 +358,10 @@ footer{
   text-align: center;
   font-size: 14px;
   padding-bottom: 15px;
-  position: fixed;
+  justify-content: center;
+  display: flex;
+  list-style: none;
+
 
   .logoface {
 padding-left: 30px;}
