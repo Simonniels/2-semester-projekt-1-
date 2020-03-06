@@ -41,6 +41,7 @@ header {
 
 .topnav a:hover {
 	background-color: #bfddba;
+  color: #fffd99
 }
 
 .topnav .icon {
