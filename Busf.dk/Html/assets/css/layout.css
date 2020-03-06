@@ -160,6 +160,9 @@ h3 {
   position: relative;
   margin: auto;
 }
+.slideshow-container img {
+  padding-top: 10px; 
+}
 
 /* Hide the images by default */
 .mySlides {
@@ -326,7 +329,7 @@ input[type=submit]:hover {
   display: center;
   width: 100%;
 <<<<<<< HEAD
-  height: 200%;  
+  height: 200%;
 =======
   height: auto;
 >>>>>>> 807f31f045c020e152bd2e4bc4847d167349af2d
