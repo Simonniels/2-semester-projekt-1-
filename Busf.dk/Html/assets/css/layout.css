@@ -235,7 +235,7 @@ input[type=submit]:hover {
 .work iframe {
   display: center;
   width: 100%;
-  height: auto;  
+  height: 200%;  
 }
 
 /*****FOOTER*****/
