@@ -25,9 +25,12 @@ header {
   overflow: hidden;
   background-color: #58b46a;
 }
+<<<<<<< HEAD
+=======
 .active {
   background-color: #0011a5;
 }
+>>>>>>> d676df14191d20a361697f402709b96382a17be9
 
 .topnav a {
  	float: left;
@@ -44,6 +47,7 @@ header {
 
 .topnav a:hover {
 	background-color: #bfddba;
+  color: #bfddba
 }
 
 .topnav .icon {
@@ -157,6 +161,9 @@ h3 {
 
 /* slideshow*/
 /* start på  slideshow*/
+<<<<<<< HEAD
+
+=======
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -253,6 +260,7 @@ h3 {
   to {opacity: 1}
 }
 }
+>>>>>>> d676df14191d20a361697f402709b96382a17be9
 
 
 /* slut på Slideshow */
