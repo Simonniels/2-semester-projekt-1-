@@ -25,6 +25,15 @@ header {
   overflow: hidden;
   background-color: #58b46a;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+.active {
+  background-color: #0011a5;
+}
+>>>>>>> d676df14191d20a361697f402709b96382a17be9
+>>>>>>> 4dbfe4e003300231dcbd76581b256b3f9777ac00
 
 .topnav a {
  	float: left;
@@ -41,6 +50,7 @@ header {
 
 .topnav a:hover {
 	background-color: #bfddba;
+  color: #bfddba
 }
 
 .topnav .icon {
@@ -152,10 +162,18 @@ h3 {
   padding-left: 14px;
 }
 /* slideshow*/
+<<<<<<< HEAD
 main{
+=======
+/* start på  slideshow*/
+<<<<<<< HEAD
+
+=======
+>>>>>>> 4dbfe4e003300231dcbd76581b256b3f9777ac00
 * {box-sizing:border-box}
 
 /* Slideshow container */
+
 .slideshow-container {
  max-width: 1000px;
  position: relative;
@@ -248,6 +266,15 @@ main{
  to {opacity: 1}
 }
 }
+<<<<<<< HEAD
+=======
+}
+>>>>>>> d676df14191d20a361697f402709b96382a17be9
+
+
+/* slut på Slideshow */
+
+>>>>>>> 4dbfe4e003300231dcbd76581b256b3f9777ac00
 /*Responsive index*/
 @media screen and (max-width: 825px) {
   .two-columns {
@@ -334,8 +361,13 @@ width="560" height="315"
 
 /*****FOOTER*****/
 footer{
+<<<<<<< HEAD
 
   position: fixed;
+=======
+  overflow: hidden;
+  position: sticky;
+>>>>>>> 4dbfe4e003300231dcbd76581b256b3f9777ac00
   bottom: 0;
   background-color: #76a7da;
   min-width: 100%;
