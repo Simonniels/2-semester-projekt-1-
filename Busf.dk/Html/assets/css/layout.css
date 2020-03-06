@@ -361,7 +361,7 @@ footer{
   text-align: center;
   font-size: 13px;
   padding-bottom: 15px;
-
+  position: fixed;
 
   .logoface {
 padding-left: 30px;}
