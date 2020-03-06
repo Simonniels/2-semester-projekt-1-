@@ -156,12 +156,12 @@ h3 {
 /* start på  slideshow*/
 /* Slideshow container */
 .slideshow-container {
-  max-width: 250px;
+  max-width: 400px;
   position: relative;
   margin: auto;
 }
 .slideshow-container img {
-  padding-top: 10px; 
+  padding-top: 10px;
 }
 
 /* Hide the images by default */
