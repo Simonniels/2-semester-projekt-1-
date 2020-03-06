@@ -42,7 +42,7 @@ header {
   font-size: 16px;
 }
 
-.topnav a:hover {
+.topnav a:hover:not(.active) {
 	background-color: #bfddba;
   color: #3bae68
 }
