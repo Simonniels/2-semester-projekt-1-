@@ -364,10 +364,6 @@ footer{
 }
 
 footer p {
-
-  position: absolute;
-  bottom: 0;
-  width: 644px;
-  height: 20px;
-  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
