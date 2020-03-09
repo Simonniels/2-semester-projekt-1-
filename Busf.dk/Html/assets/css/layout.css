@@ -236,11 +236,6 @@ h3 {
   }
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 87e9d2f903e88e847442b279bf3a6609da862af2
 /*Har du mistet?*/
 .video-container {
     overflow: hidden;
@@ -249,68 +244,6 @@ h3 {
     margin: auto;
     margin-top: 20px;
 }
-<<<<<<< HEAD
-=======
-
-.video-container::after {
-    padding-top: 56.25%;
-    display: block;
-    content: '';
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-@media screen and (max-width: 825px) {
-  .video-container {
-    width: 100%;
-  }
-}
-
-/*Er du pårørende*/
-.paaroerende {
-  padding: 0;
-  text-align: center;
-  width: 100%;
-}
-
-.paaroerende-item {
-  width: 336px;
-  height: 430px;
-  vertical-align: top;
-  display: inline-block;
-  background-color: rgba(51, 51, 51, 0.7);
-  margin: 5px;
-  color: #fff;
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.4), 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
-}
-
-.paaroerende-item img {
-  position: relative;
-  vertical-align: top;
-  width: 336px;
-  height: 336px;
-  padding: 0;
-  margin:0;
-  overflow: hidden;
-}
-
-.paaroerende-text {
- margin-top: 10px;
- margin-bottom: 10px;
- height: 74px;
- align-items: center;
- display: flex;
-}
-
-
->>>>>>> parent of 3ad7247... update
->>>>>>> 87e9d2f903e88e847442b279bf3a6609da862af2
 
 .video-container::after {
     padding-top: 56.25%;
@@ -405,23 +338,6 @@ input[type=submit]:hover {
   background-color: #fff;
   padding: 20px;
 }
-<<<<<<< HEAD
-=======
-/*Responsive Contact*/
-@media screen and (max-width: 825px) {
-  .two-columns {
-    flex: none;
-    display: block;
-  }
-
-<<<<<<< HEAD
-  .contact-left {
-    flex: none;
-    height: 20vh;
-    min-height: inherit;
-    margin-bottom: 16px;
-  }
->>>>>>> 87e9d2f903e88e847442b279bf3a6609da862af2
 
 .contact-img {
   margin-top: 30px;
@@ -432,14 +348,12 @@ input[type=submit]:hover {
 .contact-img img {
   width: 80%;
 }
-=======
->>>>>>> parent of 3ad7247... update
 
 
 /*****FOOTER*****/
 footer{
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: #76a7da;
   width: 100%;
