@@ -1,4 +1,3 @@
-/*Body*/
 body {
   display: block;
   margin: 0px;
@@ -51,7 +50,6 @@ header {
 }
 
 .active-page {
-  background-color: #bfddba;
 }
 
 /*Responsive menu*/
@@ -354,6 +352,7 @@ input[type=submit]:hover {
 footer{
   overflow: hidden;
   position: fixed;
+  position: sticky;
   bottom: 0;
   background-color: #76a7da;
   width: 100%;
