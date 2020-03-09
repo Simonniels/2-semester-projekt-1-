@@ -711,6 +711,7 @@
 [0306/121020.089:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0306/121020.089:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0306/121020.089:ERROR:crash_report_database_win.cc(469)] failed to stat report
+<<<<<<< HEAD
 [0307/145841.818:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0307/145841.818:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0307/145841.818:ERROR:crash_report_database_win.cc(469)] failed to stat report
@@ -775,3 +776,5 @@
 [0309/090905.205:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0309/090905.205:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [0309/090905.205:ERROR:crash_report_database_win.cc(469)] failed to stat report
+=======
+>>>>>>> parent of d0a8c11... Update debug.log
