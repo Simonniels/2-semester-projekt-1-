@@ -2,18 +2,24 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Er du pårørende? | Den Fynske Sorggruppe for børn og unge</title>
+    <title>Er du pårørende | Den Fynske Sorggruppe for børn og unge</title>
     <link rel="shortcut icon" type="image/x-icon" href="assets/photo/logo.png">
     <link rel="stylesheet" href="assets/css/layout.css">
     <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
-      <script type="text/javascript" src="Js/index.js"></script>
+    <script>
+      function myFunction() {
+	       var x = document.getElementById("myTopnav");
+	       if (x.className === "topnav") {x.className += " responsive";}
+	       else {x.className = "topnav";}
+       }
+    </script>
   </head>
   <body>
     <header>
       <div class="topnav" id="myTopnav">
-  			<a href="index.html" class="logo"><img src="assets/photo/logo.png" class="menu-icon" alt="facebook logo"></a>
+        <a href="index.html"><div class="logo"><img src="assets/photo/logo.png" class="menu-icon" alt="facebook logo"></div></a>
         <a href="mistet.html">Har du selv mistet?</a>
-        <a href="paaroerende.html">Er du pårørende?</a>
+        <a href="paaroerende.html" class="active-page">Er du pårørende?</a>
         <a href="stoet.html">Støt foreningen - bliv medlem</a>
         <a href="kontakt.html">Kontakt</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="assets/photo/menu-icon.png" class="menu-icon" alt="menu icon"></a>
@@ -37,6 +43,32 @@
             </div>
           </div>
         </div>
+        <ul class="paaroerende">
+          <li class="paaroerende-item">
+            <img src="assets/photo/ikon/telefon.jpg" alt="">
+            <div class="paaroerende-text">
+              <b>1. Ring eller skriv til os og tal med en af gruppelederne.</b>
+            </div>
+          </li>
+          <li class="paaroerende-item">
+            <img src="assets/photo/ikon/samtale.jpg" alt="">
+            <div class="paaroerende-text">
+              <b>2. Du vil herefter blive indbudt til en forsamtale med to af lederne.</b>
+            </div>
+          </li>
+          <li class="paaroerende-item">
+            <img src="assets/photo/ikon/skrive.jpg" alt="">
+            <div class="paaroerende-text">
+              <b>3. Efterfølgende bliver du skrevet op til deltagelse i den førstkommende gruppe.</b>
+            </div>
+          </li>
+          <li class="paaroerende-item">
+            <img src="assets/photo/ikon/sammenhold.jpg" alt="">
+            <div class="paaroerende-text">
+              <b>4. Sorggruppen mødes på Bülowsvej 11-13, Odense M, hvor Thomas Kingos Kirke har været så venlig at stille to lokaler til rådighed for gruppen.</b>
+            </div>
+          </li>
+        </ul>
       </div>
       <div class="phone-btn">
           <a href="tel:+4561793712"><img src="assets/photo/phone-btn.png" alt="phone"></a>
@@ -44,8 +76,7 @@
     </main>
     <footer>
       <p>Copyright &copy; 2020 | Gruppe 21 | All rights reserved</p>
-      <a class="logoface" href="https://www.facebook.com/den-fynske-sorggruppe-111034980486389/?ref=aymt_homepage_panel&eid=ARAHau8dXSAq8N-HgCKMYayVzYdDbMZIKNibEi291vumspWQwdsDQTZdAI6QPPGUrQzp8_OcJWKQPS-3"><img src="assets/photo/facelogo.png" width="39" height="39" alt="facebooklogo" >
-      </a>
+      <a class="logoface" href="https://www.facebook.com/den-fynske-sorggruppe-111034980486389/"><img src="assets/photo/facelogo.png" class="menu-icon" alt="facebooklogo" > </a>
     </footer>
   </body>
 </html>

@@ -6,70 +6,56 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/photo/logo.png">
     <link rel="stylesheet" href="assets/css/layout.css">
     <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
-      <script type="text/javascript" src="Js/index.js"></script>
+    <script>
+      function myFunction() {
+	       var x = document.getElementById("myTopnav");
+	       if (x.className === "topnav") {x.className += " responsive";}
+	       else {x.className = "topnav";}
+       }
+    </script>
   </head>
   <body>
     <header>
       <div class="topnav" id="myTopnav">
-  			<a href="index.html" class="logo"><img src="assets/photo/logo.png" class="menu-icon" alt="facebook logo"></a>
+        <a href="index.html"><div class="logo"><img src="assets/photo/logo.png" class="menu-icon" alt="facebook logo"></div></a>
         <a href="mistet.html">Har du selv mistet?</a>
         <a href="paaroerende.html">Er du pårørende?</a>
         <a href="stoet.html">Støt foreningen - bliv medlem</a>
-        <a href="kontakt.html">Kontakt</a>
+        <a href="kontakt.html" class="active-page">Kontakt</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="assets/photo/menu-icon.png" class="menu-icon" alt="menu icon"></a>
     	</div>
     </header>
     <main>
-     <div class="container">
-        <h1>Kontakt</h1>
-        <p>Har du behov for at kontakte den fynske sorggruppe for børn og unge kan du gøre det på tlf. 29 89 39 11, eller du kan bruge kontaktformularen på denne side.
-           Har du brug for en bestemt person, skriver du blot navnet i mailen</p>
-        <p>TIDEN LÆGER IKKE SORG – BRYD TABUET</p>
-  <form action="action_page.php">
       <div class="content">
         <div class="two-columns">
           <div class="index-left">
             <div class="index-text">
-<<<<<<< HEAD
-              <h1>Bliv Medlem</h1>
-              <h3>- Støt Børnene</h3>
-              <p>Sådan bliver du medlem:</p>
-              <p>1. Udfyld formularen til højre<p/>
-              <p>2. Vi sender dig en email om informationer om betaling</p>
-=======
               <h1>Kontakt</h1>
               <p>Har du behov for at kontakte den fynske sorggruppe for børn og unge kan du gøre det på tlf. 29 89 39 11, eller du kan bruge kontaktformularen på denne side. Har du brug for en bestemt person, skriver du blot navnet i mailen</p>
               <br>
               <b>TIDEN LÆGER IKKE SORG – BRYD TABUET!</b>
->>>>>>> parent of 3ad7247... update
+            </div>
+            <div class="contact-img">
+              <img src="assets/photo/contact-img.jpg" alt="kontakt">
             </div>
           </div>
           <div class="index-right">
             <div class="index-text">
               <div class="container">
-          <form action="action_page.php">
-            <h3>Udfyld herunder for at skrive til os</h3>
-
-
-
-            <label for="fname">Navn</label>
-            <input type="text" id="fname" name="Navn" placeholder="Navn..">
-
-            <label for="lname">Email</label>
-            <input type="text" id="lname" name="Email" placeholder="Email..">
-
-            <label for="lname">Telefonnummer</label>
-            <input type="text" id="lname" name="Telefonnummer.." placeholder="Emne..">
-
-    <label for="subject">Emne</label>
-            <label for="lname">Besked</label>
-    <textarea id="subject" name="subject" placeholder="Besked.." style="height:200px"></textarea>
-
-
-
-
-
-            <input type="submit" value="Send">
+                <form action="action_page.php">
+                  <h3>Udfyld herunder for at skrive til os</h3>
+                  <label for="fname">Navn</label>
+                  <input type="text" id="fname" name="Navn" placeholder="Navn..">
+                  <label for="lname">Email</label>
+                  <input type="text" id="lname" name="Email" placeholder="Email..">
+                  <label for="lname">Telefonnummer</label>
+                  <input type="text" id="lname" name="Telefonnummer.." placeholder="Emne..">
+                  <label for="subject">Emne</label>
+                  <label for="lname">Besked</label>
+                  <textarea id="subject" name="subject" placeholder="Besked.." style="height:200px"></textarea>
+                  <input type="submit" value="Send">
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -78,10 +64,8 @@
       </div>
     </main>
     <footer>
-
       <p>Copyright &copy; 2020 | Gruppe 21 | All rights reserved</p>
-      <a class="logoface" href="https://www.facebook.com/den-fynske-sorggruppe-111034980486389/?ref=aymt_homepage_panel&eid=ARAHau8dXSAq8N-HgCKMYayVzYdDbMZIKNibEi291vumspWQwdsDQTZdAI6QPPGUrQzp8_OcJWKQPS-3"><img src="assets/photo/facelogo.png" width="39" height="39" alt="facebooklogo" >
-      </a>
+      <a class="logoface" href="https://www.facebook.com/den-fynske-sorggruppe-111034980486389/"><img src="assets/photo/facelogo.png" class="menu-icon" alt="facebooklogo" > </a>
     </footer>
   </body>
 </html>
