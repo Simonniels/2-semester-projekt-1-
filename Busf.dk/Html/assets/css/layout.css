@@ -1,4 +1,3 @@
-/*Body*/
 body {
   display: block;
   margin: 0px;
@@ -51,7 +50,6 @@ header {
 }
 
 .active-page {
-  background-color: #bfddba;
 }
 
 /*Responsive menu*/
