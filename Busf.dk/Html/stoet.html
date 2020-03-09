@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Støt foreningen - bliv medlem | Den Fynske Sorggruppe for børn og unge</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/photo/logo.png">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
+    <script>
+      function myFunction() {
+	       var x = document.getElementById("myTopnav");
+	       if (x.className === "topnav") {x.className += " responsive";}
+	       else {x.className = "topnav";}
+       }
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html"><div class="logo"><img src="assets/photo/logo.png" class="menu-icon" alt="facebook logo"></div></a>
+        <a href="mistet.html">Har du selv mistet?</a>
+        <a href="paaroerende.html">Er du pårørende?</a>
+        <a href="stoet.html" class="active-page">Støt foreningen - bliv medlem</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><img src="assets/photo/menu-icon.png" class="menu-icon" alt="menu icon"></a>
+    	</div>
+    </header>
+    <main>
+      <div class="content">
+        <div class="two-columns">
+          <div class="index-left">
+            <div class="index-text">
+              <h1>Bliv Medlem</h1>
+              <h3>- Støt børn og unge i sorg</h3>
+              <p>Sådan bliver du medlem:</p>
+              <p>1. Udfyld formularen til højre<p/>
+              <p>2. Vi sender dig en email om informationer om betaling</p>
+              <p>Du kan efterfølgende indbetale kontingentet på konto 0828 0010092752</p>
+              <p>Medlemskabet er gyldig når du har indbetalt medlemsgebyr til foreningens konto.</p>
+              <p>PERSONLIGT MEDLEMSSKAB</p>
+              <p>100,- kr, pr. år</p>
+              <p>FORENINGS- OG MENIGHEDSRÅDMEDLEMSSKAB</p>
+              <p>1000,- kr, pr. år</p>
+            </div>
+          </div>
+          <div class="index-right">
+            <div class="index-text">
+              <h1>Støt os</h1>
+              <div class="container">
+                <form action="action_page.php">
+                <label for="Vælg Medlemsskab">Vælg Medlemsskab</label>
+                <select id="country" name="country">
+                  <option value="Forenings- og menighedsrådsmedlemsskab">Forening</option>
+                  <option value="Personligt Medlemsskab">Personligt</option>
+                </select>
+                <label for="fname">Navn</label>
+                <input type="text" id="fname" name="Navn" placeholder="Navn..">
+                <label for="lname">Email</label>                  <input type="text" id="lname" name="Email" placeholder="Email..">
+                <label for="lname">Kommentar</label>
+                <input type="text" id="lname" name="Kommentar" placeholder="Kommentar..">
+                <input type="submit" value="Send">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="phone-btn">
+          <a href="tel:+4561793712"><img src="assets/photo/phone-btn.png" alt="phone"></a>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2020 | Gruppe 21 | All rights reserved</p>
+      <a class="logoface" href="https://www.facebook.com/den-fynske-sorggruppe-111034980486389/"><img src="assets/photo/facelogo.png" class="menu-icon" alt="facebooklogo" > </a>
+    </footer>
+  </body>
+</html>
